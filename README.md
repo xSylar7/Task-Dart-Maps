@@ -10,14 +10,14 @@
 Example, given the following:
 
 ```dart
-const a = { 1, 3 };
-const b = { 3, 5 };
+const a = { 3, 5 };
+const b = { 5, 7 };
 ```
 
 Output:
 
 ```
- `{1, 5}`.
+ {3, 7}
 ```
 
 ### Maps
@@ -43,7 +43,7 @@ const order = ['pizza', 'water'];
 Output:
 
 ```
-Total: $6.5`
+Total: $6.5
 ```
 
 and if an order element is not on the menu, the output should be:
