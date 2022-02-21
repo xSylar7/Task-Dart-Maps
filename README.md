@@ -1,33 +1,53 @@
-# TASK-NAME
+# Maps And Sets 🗺️
 
-This is the template for tasks. These repos are the starting points and instructions for students to explore a concept.
+### Sets
 
-## Instructions
-- Fork and clone [this repository](https://github.com/JoinCODED/{REPO_NAME}) to your `Development` folder.
+1. Given this list of integers: `[5, 3, 15, 4, 1]`.
+   Using a `for` loop count the sum of those elements.
 
-## Objective and end result
-- Write the objective of the task.
-- If there are any images, make sure you resize them to around 880px maximum width. **Don't add big images**
+2. Given two integer sets `a` and `b`, calculate the set of the elements that belong to either `a` or `b`, but not both.
 
-![screenshot](https://tenor.com/xNjE.gif)
+Example, given the following:
 
+```dart
+const a = { 1, 3 };
+const b = { 3, 5 };
+```
 
-### 🍋 The basic challenge title
+Output:
 
-- Step 1
-- Step 2
-- Step 3
+```
+ `{1, 5}`.
+```
 
+### Maps
 
-### 🤼‍♂️ The hard challenge title
+Given the following map of a restaurant menu:
 
-- Step 1
-- Step 2
-- Step 3
+```dart
+const menu = {
+  'burger': 6.5,
+  'pizza': 5,
+  'water': 1.5,
+};
+```
 
+Calculate the total for a given order.
 
-### 🌶 The Extreme challenge title 
+Example:
 
-- Step 1
-- Step 2
-- Step 3
+```dart
+const order = ['pizza', 'water'];
+```
+
+Output:
+
+```
+Total: $6.5`
+```
+
+and if an order element is not on the menu, the output should be:
+
+```
+rice is not on the menu
+```
