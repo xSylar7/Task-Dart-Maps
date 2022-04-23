@@ -1,11 +1,9 @@
-# Maps And Sets 🗺️
-
-### Lists
+### 🍋 Lists
 
 Given this list of integers: `[5, 3, 15, 4, 1]`.
 Using a `for` loop count the sum of those elements.
 
-### Sets
+### 🍋 Sets
 
 Given two integer sets `a` and `b`, calculate the set of the elements that belong to either `a` or `b`, but not both.
 
@@ -22,7 +20,7 @@ Output:
  {3, 7}
 ```
 
-### Maps
+### 🍋 Maps
 
 Given the following map of a restaurant menu:
 
