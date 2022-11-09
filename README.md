@@ -18,7 +18,23 @@ const menu = {
 
 1. Add another property called `chocolate cake` with a price of 3 KD.
 
-2. Calculate the total for a given order.
+2. Change the price of the water to 0.75KD.
+
+3. Print the menu with their prices as following:
+
+```
+Menu:
+
+burger -> 6.5KD
+pizza -> 5KD
+water -> 0.75KD
+chocolate cake -> 3KD
+
+```
+
+### 🤼‍♀️ Calculate Orders
+
+1. Calculate the total for a given order.
 
 Example:
 
@@ -29,10 +45,10 @@ const order = ['pizza', 'water'];
 Output:
 
 ```
-Total: KD6.5
+Total: KD5.75
 ```
 
-### 🤼‍♀️ Unavailable Items
+### 🌶️ Unavailable Items
 If an order element is not on the menu, the output should be:
 
 
