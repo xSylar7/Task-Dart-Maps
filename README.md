@@ -1,26 +1,10 @@
-### 🍋 Lists
+### Setup 
 
-Given this list of integers: `[5, 3, 15, 4, 1]`.
-Using a `for` loop count the sum of those elements.
+1. Fork and clone [this repo](https://github.com/JoinCODED/Task-Dart-Maps).
+2. Write your code in `main.dart`.
+3. Don't forget to push your code.
 
-### 🍋 Sets
-
-Given two integer sets `a` and `b`, calculate the set of the elements that belong to either `a` or `b`, but not both.
-
-Example, given the following:
-
-```dart
-const a = { 3, 5 };
-const b = { 5, 7 };
-```
-
-Output:
-
-```
- {3, 7}
-```
-
-### 🍋 Maps
+### 🍋 Menu
 
 Given the following map of a restaurant menu:
 
@@ -32,7 +16,9 @@ const menu = {
 };
 ```
 
-Calculate the total for a given order.
+1. Add another property called `chocolate cake` with a price of 3 KD.
+
+2. Calculate the total for a given order.
 
 Example:
 
@@ -43,11 +29,18 @@ const order = ['pizza', 'water'];
 Output:
 
 ```
-Total: $6.5
+Total: KD6.5
 ```
 
-and if an order element is not on the menu, the output should be:
+### 🤼‍♀️ Unavailable Items
+If an order element is not on the menu, the output should be:
+
+
+```dart
+const order = ['pizza', 'rice'];
+```
 
 ```
 rice is not on the menu
 ```
+
